@@ -5,7 +5,9 @@ docker build -t aa-imagename .
   
   
 ## Prune docker images
+```
 docker image prune -a
+```
 
 ## Run Docker Compose
 Docker-compose up -d
