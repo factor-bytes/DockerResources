@@ -10,10 +10,13 @@ docker image prune -a
 ```
 
 ## Run Docker Compose
+```
 Docker-compose up -d
-
+```
 ## Container Status
+```
 Docker-compose ps
+```
 
 ## Stop Containers 
 docker-compose stop 
