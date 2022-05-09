@@ -42,4 +42,7 @@ docker rm $(docker ps -a -q)
 
 ## How to SSH into a running container
 1. Get running container name  - docker ps or docker-compose ps
-2. Use the command docker exec -it <container name> /bin/bash to get a bash shell in the container
+2. Use the command below to get a bash shell in the container
+```
+docker exec -it <container name> /bin/bash
+```
