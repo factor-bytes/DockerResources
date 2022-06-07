@@ -4,10 +4,15 @@
 ```
 docker build -t aa-imagename .
 ```
-  
-## Prune docker images
+
+## List all docker Images
 ```
-docker image prune -a
+docker image list
+```
+
+## Prune all docker images
+```
+docker image prune --all
 ```
 
 ## Run Docker Compose
@@ -37,6 +42,11 @@ docker kill $(docker ps -q)
 ## Remove all containers
 ```
 docker rm $(docker ps -a -q)
+```
+
+## Tail a container log
+```
+docker logs --follow <containerName>
 ```
 -------------------------------------------------
 
