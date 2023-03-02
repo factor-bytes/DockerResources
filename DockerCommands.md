@@ -29,6 +29,14 @@ Docker-compose ps
 docker-compose stop 
 ```
 
+## Stop specific container 
+```
+docker stop <containerName>
+```
+```
+docker kill <containerName>
+```
+
 ## List all Containers
 ```
 docker container ls -a
