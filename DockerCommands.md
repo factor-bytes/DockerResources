@@ -29,6 +29,12 @@ Docker-compose ps
 docker-compose stop 
 ```
 
+
+## Remove Orphan Containers 
+```
+docker-compose up -d --remove-orphans
+```
+
 ## Stop specific container 
 ```
 docker stop <containerName>
