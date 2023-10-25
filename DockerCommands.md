@@ -47,6 +47,11 @@ docker container ls -a
 docker kill $(docker ps -q)
 ```
 
+## Remove a containers
+```
+docker rm <containerName>
+```
+
 ## Remove all containers
 ```
 docker rm $(docker ps -a -q)
